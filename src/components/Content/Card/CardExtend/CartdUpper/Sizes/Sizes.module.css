@@ -1,0 +1,17 @@
+.sizes{
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.sizes ul{
+    display: flex;
+    gap: 10px;
+    list-style: none;
+    margin-left: 10px;
+}
+.sizes li {
+     background-color: rgb(229, 229, 229);
+     padding: 2px 4px;
+     border-radius: 5px;
+}

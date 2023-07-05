@@ -1,0 +1,21 @@
+.categories ul {
+    list-style: none;
+    gap: 20px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.link{
+    color : black;
+    text-decoration: none;
+    border-bottom: 2px solid rgb(255, 255, 255);
+    transition: 0.3s;
+}
+
+.link:hover {
+    border-bottom: 2px solid rgb(0, 0, 0);
+}
+
+.link.active{
+    border-bottom: 2px solid rgb(0, 0, 0);
+}

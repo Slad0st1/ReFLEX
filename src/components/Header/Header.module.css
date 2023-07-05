@@ -1,0 +1,22 @@
+.header {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    margin: 10px 0px;
+    gap : 10px;
+}
+
+.logo {
+    font-size: 18px;
+    font-weight: 900;
+}
+
+.cart{
+    border-bottom: 2px solid rgb(255, 255, 255);
+    transition: 0.3s;
+}  
+
+.cart:hover{
+    border-bottom: 2px solid rgb(0, 0, 0);
+}

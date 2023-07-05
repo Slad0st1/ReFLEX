@@ -1,0 +1,14 @@
+*{
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  outline: none;
+  font-family: 'Montserrat', sans-serif;
+}
+
+:root {
+  --white : #ffffff;
+  --dark : #191919;
+  --gray : #53535381;
+
+}

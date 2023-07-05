@@ -1,0 +1,12 @@
+.gallery{
+    display: flex;
+    flex-direction: column;
+    max-height: 375px;
+    gap: 5px;
+    padding-right: 30px;
+}
+.gallery img {
+    max-width: 90px;
+    max-height: 96px;
+    border-radius: 5px;
+}
