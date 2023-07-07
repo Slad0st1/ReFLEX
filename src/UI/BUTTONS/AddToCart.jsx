@@ -15,7 +15,9 @@ export default function AddToCart({children , item}) {
   };
 
   return (
-    <button onClick={() => addInCart(item)} className={styles.addToCart}>{children}</button>
+    <button onClick={() => addInCart(item)} className={styles.addToCart}>
+      {cartItems.includes(item) ? 'Remove from cart' : 'Add to cart'}
+    </button>
   )
 }
 

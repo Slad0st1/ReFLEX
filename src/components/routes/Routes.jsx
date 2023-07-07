@@ -5,7 +5,7 @@ import Content from "../Content/Content";
 import { useSelector } from "react-redux";
 
 export default function AddRoutes() {
-  const pagesRoutes = useSelector((state) => state.pagesRoutes.pages);
+  const pagesRoutes = useSelector(state => state.items.categories);
   return (
     <div>
       <Routes>
@@ -20,7 +20,7 @@ export default function AddRoutes() {
             <Route
               key={r.path}
               path={`/${r.path}/:id`}
-              element={<CardExtend />}
+              element={<CardExtend path={r.path} />}
             />
           </>
         ))}

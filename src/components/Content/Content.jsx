@@ -2,7 +2,6 @@ import React, { useEffect, useState } from "react";
 import styles from "./Content.module.css";
 import Card from "./Card/Card";
 import {  useSelector } from "react-redux";
-import { useLocation } from "react-router-dom";
 
 export default function Content({path}) {
   const searchQuery = useSelector((state) => state.searchQuery.searchQuery);
@@ -10,6 +9,7 @@ export default function Content({path}) {
   const tshirts = useSelector((state) => state.items.tshirts);
   const shoes = useSelector((state) => state.items.shoes);
   const pants = useSelector((state) => state.items.pants);
+  const jakets = useSelector((state) => state.items.jakets);
 
   useEffect(() => {
     switch (path) {
@@ -22,6 +22,9 @@ export default function Content({path}) {
       case "pants":
         setItems(pants);
         break;
+        case "jakets":
+          setItems(jakets);
+          break;
     }
   });
     
@@ -31,7 +34,7 @@ export default function Content({path}) {
         .filter((item) =>
           item.title.toLowerCase().includes(searchQuery.toLowerCase())
         )
-        .map((item) => (
+        .map(item => (
           <Card
             key={item.id}
             categori={item.type}
@@ -40,6 +43,8 @@ export default function Content({path}) {
             img={item.img}
             price={item.price}
             title={item.title}
+            gallery ={item.gallery}
+            sizes ={item.sizes}
           />
         ))}
     </div>

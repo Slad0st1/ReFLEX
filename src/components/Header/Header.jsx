@@ -1,5 +1,4 @@
 import styles from "./Header.module.css";
-import {  useSelector } from "react-redux";
 import Categories from "./Categories/Categories";
 import Search from "./Search/Search";
 import Logo from "./Logo/Logo";

@@ -4,9 +4,10 @@ const Items = createSlice({
   name: "items",
   initialState: {
     categories: [
-      { id: 1, name: "tshirts", title: "T-Shirts" },
-      { id: 2, name: "shoes", title: "Shoes" },
-      { id: 3, name: "pants", title: "Pants" },
+      { id: 1, path: "tshirts", title: "T-Shirts" },
+      { id: 2, path: "shoes", title: "Shoes" },
+      { id: 3, path: "pants", title: "Pants" },
+      { id: 4, path: "jakets", title: "Jakets" },
     ],
     tshirts: [
       {
@@ -147,6 +148,56 @@ const Items = createSlice({
         title: "Pants GUCCI 2022G Brand",
         img: "/pants.jpg",
         type: "pants",
+        gallery: [
+          { img: 1, link: "/tshirt1.jpg" },
+          { img: 2, link: "/tshirt2.jpg" },
+        ],
+        sizes: ["L", "XL", "XXL"],
+        color: "Black",
+        added: "false",
+        descr:
+          "Sneaker in air mesh and suede goatskin. Light sole with contrasting design for a versatile and modern look.",
+      },
+    ],
+    jakets: [
+      {
+        id: 1,
+        price: 1,
+        title: "Pants GUCCI 2022G Summer Brand",
+        img: "/pants.jpg",
+        type: "jakets",
+        gallery: [
+          { img: 1, link: "/tshirt1.jpg" },
+          { img: 2, link: "/tshirt2.jpg" },
+        ],
+        sizes: ["L", "XL", "XXL"],
+        color: "Black",
+        added: "false",
+        descr:
+          "Sneaker in air mesh and suede goatskin. Light sole with contrasting design for a versatile and modern look.",
+      },
+      {
+        id: 2,
+        price: 2,
+        title: "Pants GUCCI 2022G Summer ",
+        img: "/pants.jpg",
+        type: "jakets",
+        gallery: [
+          { img: 1, link: "/tshirt1.jpg" },
+          { img: 2, link: "/tshirt2.jpg" },
+        ],
+        sizes: ["L", "XL", "XXL"],
+        color: "Black",
+        added: "false",
+        descr:
+          "Sneaker in air mesh and suede goatskin. Light sole with contrasting design for a versatile and modern look.",
+      },
+      {
+        id: 3,
+        price: 3,
+        title: "Pants GUCCI 2022G Brand",
+        img: "/pants.jpg",
+        type: "jakets",
         gallery: [
           { img: 1, link: "/tshirt1.jpg" },
           { img: 2, link: "/tshirt2.jpg" },

@@ -3,18 +3,18 @@ import styles from './Categories.module.css'
 import { NavLink } from 'react-router-dom'
 import { useSelector } from 'react-redux'
 export default function Categories() {
-  const items = useSelector( state => state.items.categories)
+  const categories = useSelector( state => state.items.categories)
   return (
     <div className={styles.categories}>
         <nav>
           <ul>
-          {items.map( item => 
-            <li  key={item.name} >
+          {categories.map( item => 
+            <li  key={item.path} >
             <NavLink
               className={({ isActive }) =>
                 `${styles.link} ${isActive ? styles.active : ""}`
               }
-              to={`${item.name}`}>
+              to={`${item.path}`}>
               {item.title}
             </NavLink>
             </li>
