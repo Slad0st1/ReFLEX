@@ -5,26 +5,26 @@ import Content from "../Content/Content";
 import { useSelector } from "react-redux";
 
 export default function AddRoutes() {
-  const pagesRoutes = useSelector(state => state.items.categories);
+  const pagesRoutes = useSelector((state) => state.items.categories);
   return (
     <div>
       <Routes>
         <Route exact path="/" element={<Content path="tshirts" />} />
-        {pagesRoutes.map((r) => (
-          <>
+      </Routes>
+      {pagesRoutes.map((r) => (
+          <Routes  key={r.id}>
             <Route
-              key={r.path}
+              exact
               path={`/${r.path}`}
               element={<Content path={r.path} />}
             />
             <Route
-              key={r.path}
+              exact
               path={`/${r.path}/:id`}
               element={<CardExtend path={r.path} />}
             />
-          </>
+          </Routes>
         ))}
-      </Routes>
     </div>
   );
 }

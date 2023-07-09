@@ -209,13 +209,9 @@ const Items = createSlice({
           "Sneaker in air mesh and suede goatskin. Light sole with contrasting design for a versatile and modern look.",
       },
     ],
-    activeItem: {},
     cart: [],
   },
   reducers: {
-    addActiveItem(state, action) {
-      state.activeItem = action.payload;
-    },
     addActiveImg(state, action) {
       state.activeItem.img = action.payload;
     },

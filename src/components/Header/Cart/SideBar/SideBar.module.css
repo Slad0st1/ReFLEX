@@ -1,11 +1,11 @@
-/* .wrapper {
+.wrapper {
     position: absolute;
     top: 0;
     left: 0;
     right: 0;
     bottom: 0;
     background-color: var(--gray);
-} */
+}
 
 
 .sideBar {
@@ -15,5 +15,15 @@
     right: 0;
     padding: 20px;
     background-color: var(--white);
-    min-width: 270px;
+    min-width: 350px;
+    border-left:  3px solid var(--dark);
+}
+
+.sideBarContent{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    top: 0;
+    bottom: 0;
 }

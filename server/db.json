@@ -1,0 +1,387 @@
+{
+    "": [
+        {
+            "id": 1,
+            "price": 1,
+            "title": "GUCCI 2022G Summer Brand",
+            "img": "/tshirt.jpg",
+            "type": "tshirts",
+            "gallery": [
+                {
+                    "img": 1,
+                    "link": "/tshirt1.jpg"
+                },
+                {
+                    "img": 2,
+                    "link": "/tshirt2.jpg"
+                }
+            ],
+            "sizes": [
+                "L",
+                "XL",
+                "XXL"
+            ],
+            "color": "Black",
+            "added": false,
+            "descr": "Sneaker in air mesh and suede goatskin. Light sole with contrasting design for a versatile and modern look."
+        },
+        {
+            "id": 2,
+            "price": 11,
+            "title": "GUCCI 2022G Summer Brand",
+            "img": "/tshirt.jpg",
+            "type": "tshirts",
+            "gallery": [
+                {
+                    "img": 1,
+                    "link": "/tshirt1.jpg"
+                },
+                {
+                    "img": 2,
+                    "link": "/tshirt2.jpg"
+                }
+            ],
+            "sizes": [
+                "L",
+                "XL",
+                "XXL"
+            ],
+            "color": "Black",
+            "added": false,
+            "descr": "Sneaker in air mesh and suede goatskin. Light sole with contrasting design for a versatile and modern look."
+        },
+        {
+            "id": 3,
+            "price": 111,
+            "title": "GUCCI 2022G Summer Brand",
+            "img": "/tshirt.jpg",
+            "type": "tshirts",
+            "gallery": [
+                {
+                    "img": 1,
+                    "link": "/tshirt1.jpg"
+                },
+                {
+                    "img": 2,
+                    "link": "/tshirt2.jpg"
+                }
+            ],
+            "sizes": [
+                "L",
+                "XL",
+                "XXL"
+            ],
+            "color": "Black",
+            "added": false,
+            "descr": "Sneaker in air mesh and suede goatskin. Light sole with contrasting design for a versatile and modern look."
+        }
+    ],
+    "tshirts": [
+        {
+            "id": 1,
+            "price": 1,
+            "title": "GUCCI 2022G Summer Brand",
+            "img": "/tshirt.jpg",
+            "type": "tshirts",
+            "gallery": [
+                {
+                    "img": 1,
+                    "link": "/tshirt1.jpg"
+                },
+                {
+                    "img": 2,
+                    "link": "/tshirt2.jpg"
+                }
+            ],
+            "sizes": [
+                "L",
+                "XL",
+                "XXL"
+            ],
+            "color": "Black",
+            "added": false,
+            "descr": "Sneaker in air mesh and suede goatskin. Light sole with contrasting design for a versatile and modern look."
+        },
+        {
+            "id": 2,
+            "price": 11,
+            "title": "GUCCI 2022G Summer Brand",
+            "img": "/tshirt.jpg",
+            "type": "tshirts",
+            "gallery": [
+                {
+                    "img": 1,
+                    "link": "/tshirt1.jpg"
+                },
+                {
+                    "img": 2,
+                    "link": "/tshirt2.jpg"
+                }
+            ],
+            "sizes": [
+                "L",
+                "XL",
+                "XXL"
+            ],
+            "color": "Black",
+            "added": false,
+            "descr": "Sneaker in air mesh and suede goatskin. Light sole with contrasting design for a versatile and modern look."
+        },
+        {
+            "id": 3,
+            "price": 111,
+            "title": "GUCCI 2022G Summer Brand",
+            "img": "/tshirt.jpg",
+            "type": "tshirts",
+            "gallery": [
+                {
+                    "img": 1,
+                    "link": "/tshirt1.jpg"
+                },
+                {
+                    "img": 2,
+                    "link": "/tshirt2.jpg"
+                }
+            ],
+            "sizes": [
+                "L",
+                "XL",
+                "XXL"
+            ],
+            "color": "Black",
+            "added": false,
+            "descr": "Sneaker in air mesh and suede goatskin. Light sole with contrasting design for a versatile and modern look."
+        }
+    ],
+    "shoes": [
+        {
+            "id": 1,
+            "price": 1,
+            "title": "GUCCI 2022G Summer Brand",
+            "img": "/shoes.jpg",
+            "type": "shoes",
+            "gallery": [
+                {
+                    "img": 1,
+                    "link": "/tshirt1.jpg"
+                },
+                {
+                    "img": 2,
+                    "link": "/tshirt2.jpg"
+                }
+            ],
+            "sizes": [
+                "L",
+                "XL",
+                "XXL"
+            ],
+            "color": "Black",
+            "added": false,
+            "descr": "Sneaker in air mesh and suede goatskin. Light sole with contrasting design for a versatile and modern look."
+        },
+        {
+            "id": 2,
+            "price": 11,
+            "title": "GUCCI 2022G Summer Brand",
+            "img": "/shoes.jpg",
+            "type": "shoes",
+            "gallery": [
+                {
+                    "img": 1,
+                    "link": "/tshirt1.jpg"
+                },
+                {
+                    "img": 2,
+                    "link": "/tshirt2.jpg"
+                }
+            ],
+            "sizes": [
+                "L",
+                "XL",
+                "XXL"
+            ],
+            "color": "Black",
+            "added": false,
+            "descr": "Sneaker in air mesh and suede goatskin. Light sole with contrasting design for a versatile and modern look."
+        },
+        {
+            "id": 3,
+            "price": 111,
+            "title": "GUCCI 2022G Summer Brand",
+            "img": "/shoes.jpg",
+            "type": "shoes",
+            "gallery": [
+                {
+                    "img": 1,
+                    "link": "/tshirt1.jpg"
+                },
+                {
+                    "img": 2,
+                    "link": "/tshirt2.jpg"
+                }
+            ],
+            "sizes": [
+                "L",
+                "XL",
+                "XXL"
+            ],
+            "color": "Black",
+            "added": false,
+            "descr": "Sneaker in air mesh and suede goatskin. Light sole with contrasting design for a versatile and modern look."
+        }
+    ],
+    "pants": [
+        {
+            "id": 1,
+            "price": 1,
+            "title": "GUCCI 2022G Summer ",
+            "img": "/pants.jpg",
+            "type": "pants",
+            "gallery": [
+                {
+                    "img": 1,
+                    "link": "/tshirt1.jpg"
+                },
+                {
+                    "img": 2,
+                    "link": "/tshirt2.jpg"
+                }
+            ],
+            "sizes": [
+                "L",
+                "XL",
+                "XXL"
+            ],
+            "color": "Black",
+            "added": false,
+            "descr": "Sneaker in air mesh and suede goatskin. Light sole with contrasting design for a versatile and modern look."
+        },
+        {
+            "id": 2,
+            "price": 11,
+            "title": "GUCCI 2022G Summer Brand",
+            "img": "/pants.jpg",
+            "type": "pants",
+            "gallery": [
+                {
+                    "img": 1,
+                    "link": "/tshirt1.jpg"
+                },
+                {
+                    "img": 2,
+                    "link": "/tshirt2.jpg"
+                }
+            ],
+            "sizes": [
+                "L",
+                "XL",
+                "XXL"
+            ],
+            "color": "Black",
+            "added": false,
+            "descr": "Sneaker in air mesh and suede goatskin. Light sole with contrasting design for a versatile and modern look."
+        },
+        {
+            "id": 3,
+            "price": 111,
+            "title": "GUCCI  Summer Brand",
+            "img": "/pants.jpg",
+            "type": "pants",
+            "gallery": [
+                {
+                    "img": 1,
+                    "link": "/tshirt1.jpg"
+                },
+                {
+                    "img": 2,
+                    "link": "/tshirt2.jpg"
+                }
+            ],
+            "sizes": [
+                "L",
+                "XL",
+                "XXL"
+            ],
+            "color": "Black",
+            "added": false,
+            "descr": "Sneaker in air mesh and suede goatskin. Light sole with contrasting design for a versatile and modern look."
+        }
+    ],
+    "jakets": [
+        {
+            "id": 1,
+            "price": 1,
+            "title": "GUCCI 2022G Summer Brand",
+            "img": "/pants.jpg",
+            "type": "jakets",
+            "gallery": [
+                {
+                    "img": 1,
+                    "link": "/tshirt1.jpg"
+                },
+                {
+                    "img": 2,
+                    "link": "/tshirt2.jpg"
+                }
+            ],
+            "sizes": [
+                "L",
+                "XL",
+                "XXL"
+            ],
+            "color": "Black",
+            "added": false,
+            "descr": "Sneaker in air mesh and suede goatskin. Light sole with contrasting design for a versatile and modern look."
+        },
+        {
+            "id": 2,
+            "price": 11,
+            "title": "GUCCI 2022G Summer Brand",
+            "img": "/pants.jpg",
+            "type": "jakets",
+            "gallery": [
+                {
+                    "img": 1,
+                    "link": "/tshirt1.jpg"
+                },
+                {
+                    "img": 2,
+                    "link": "/tshirt2.jpg"
+                }
+            ],
+            "sizes": [
+                "L",
+                "XL",
+                "XXL"
+            ],
+            "color": "Black",
+            "added": false,
+            "descr": "Sneaker in air mesh and suede goatskin. Light sole with contrasting design for a versatile and modern look."
+        },
+        {
+            "id": 3,
+            "price": 111,
+            "title": "GUCCI 2022G Summer Brand",
+            "img": "/pants.jpg",
+            "type": "jakets",
+            "gallery": [
+                {
+                    "img": 1,
+                    "link": "/tshirt1.jpg"
+                },
+                {
+                    "img": 2,
+                    "link": "/tshirt2.jpg"
+                }
+            ],
+            "sizes": [
+                "L",
+                "XL",
+                "XXL"
+            ],
+            "color": "Black",
+            "added": false,
+            "descr": "Sneaker in air mesh and suede goatskin. Light sole with contrasting design for a versatile and modern look."
+        }
+    ]
+}

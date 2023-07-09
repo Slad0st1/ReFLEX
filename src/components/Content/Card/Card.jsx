@@ -3,13 +3,12 @@ import styles from "./Card.module.css";
 import { Link } from "react-router-dom";
 import { useDispatch, useSelector } from "react-redux";
 import {
-  addActiveItem,
   addItemInCart,
   removeItem,
 } from "../../../store/Items/ItemsSlice";
 import CloseBtn from "../../../UI/BUTTONS/CloseBtn";
 
-export default function Card({ item, id, categori, title, price, img  , gallery , sizes}) {
+export default function Card({ item, id, categori, title, price, img}) {
   const cartItems = useSelector((state) => state.items.cart);
   const dispatch = useDispatch();
   const addInCart = (target) => {
@@ -20,14 +19,10 @@ export default function Card({ item, id, categori, title, price, img  , gallery 
     }
   };
 
-  const activeItem = () => {
-    dispatch(addActiveItem(item));
-  };
 
   return (
     <div className={styles.card}>
       <Link
-        onClick={activeItem}
         style={{ color: "black", textDecoration: "none" }}
         to={`/${categori}/${id}`}
       >
