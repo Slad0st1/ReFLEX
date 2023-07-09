@@ -1,4 +1,4 @@
-import React from "react";
+import React,  from "react";
 import styles from "./Card.module.css";
 import { Link } from "react-router-dom";
 import { useDispatch, useSelector } from "react-redux";
@@ -18,7 +18,6 @@ export default function Card({ item, id, categori, title, price, img}) {
       dispatch(addItemInCart(target));
     }
   };
-
 
   return (
     <div className={styles.card}>

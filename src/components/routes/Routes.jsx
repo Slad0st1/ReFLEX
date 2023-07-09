@@ -16,12 +16,12 @@ export default function AddRoutes() {
             <Route
               exact
               path={`/${r.path}`}
-              element={<Content path={r.path} />}
+              element={<Content />}
             />
             <Route
               exact
               path={`/${r.path}/:id`}
-              element={<CardExtend path={r.path} />}
+              element={<CardExtend />}
             />
           </Routes>
         ))}
