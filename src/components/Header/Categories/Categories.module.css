@@ -1,12 +1,12 @@
-.categories ul {
+.navBar {
     list-style: none;
     gap: 20px;
     display: flex;
     flex-wrap: wrap;
 }
 
-.link{
-    color : black;
+.link {
+    color: black;
     text-decoration: none;
     border-bottom: 2px solid rgb(255, 255, 255);
     transition: 0.3s;
@@ -16,6 +16,70 @@
     border-bottom: 2px solid rgb(0, 0, 0);
 }
 
-.link.active{
+.link.active {
     border-bottom: 2px solid rgb(0, 0, 0);
+}
+
+@media (max-width : 420px) {
+    .navBar {
+        gap: 0;
+        position: fixed;
+        display: flex;
+        flex-direction: column;
+        z-index: 10;
+        transition: all 0.3s;
+    }
+
+    .burgerBtn{
+        display: flex;
+        align-items: center;
+        max-width: 38px;
+        max-height: 38px;
+        padding: 5px;
+    }
+
+    .burgerBtn img{
+        width: 24px;
+        height: 24px;
+    }
+
+    .navBar.active {
+        top: 0;
+        left: 0;
+        right: 0;
+        text-align: center;
+        color: rgb(255, 255, 255) !important;
+        background-color: rgb(0, 0, 0);
+        padding: 10px 0px;
+    }
+
+    .navBar.active.hidden{
+        top: -100%;
+    }
+    .linkWrapper{
+        border-bottom: 1px solid rgb(189, 189, 189);
+        padding: 10px 0px;
+        margin: 0px 10px;
+    }
+
+    .linkWrapper:nth-last-child(1){
+        border-bottom: none;
+    }
+
+    .link {
+        position: relative;
+        color: rgb(255, 255, 255);
+        text-decoration: none;
+        border-bottom: 2px solid rgb(0, 0, 0);
+        transition: 0.3s;
+        font-size: 20px;
+    }
+
+    .link:hover {
+        border-bottom: none
+    }
+
+    .link.active {
+        border-bottom: none
+    }
 }

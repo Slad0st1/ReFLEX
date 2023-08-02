@@ -11,7 +11,7 @@ export default function Logo() {
         }
         to="/"
       >
-        Re<span className={styles.logoUpperCase}>FLEX</span>
+        ReFLEX
       </NavLink>
     </div>
   );

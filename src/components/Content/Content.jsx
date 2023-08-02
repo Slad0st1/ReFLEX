@@ -9,13 +9,10 @@ export default function Content() {
   const allItems = useSelector((state) => state.items.itemsArray);
   const [items, setItems] = useState([]);
 
-
-
   useEffect(() => {
     setItems(
       allItems.filter((item) =>
         item.title.toLowerCase().includes(searchQuery.toLowerCase())))},[ allItems, searchQuery]);
-
   return (
     <div className={styles.content}>
     { items.length ?  items.map((item) => (

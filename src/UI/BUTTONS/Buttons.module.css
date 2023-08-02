@@ -4,3 +4,7 @@
     padding: 10px 20px;
     border: none;
 }
+
+.closeBtn{
+   max-height: 19px;
+}

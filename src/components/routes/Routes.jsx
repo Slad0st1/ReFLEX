@@ -7,9 +7,9 @@ import { useSelector } from "react-redux";
 export default function AddRoutes() {
   const pagesRoutes = useSelector((state) => state.items.categories);
   return (
-    <div>
+    <div >
       <Routes>
-        <Route exact path="/" element={<Content path="tshirts" />} />
+        <Route exact path="/" element={<Content/>} />
       </Routes>
       {pagesRoutes.map((r) => (
           <Routes  key={r.id}>

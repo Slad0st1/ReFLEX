@@ -1,6 +1,20 @@
 .app{
+    overflow-x: hidden;
+    overflow-y: auto ;
+    position : relative;
+    height: 100%;
+}
+.main{
     margin: 0 auto;
     max-width: 1247px;
     width: 100%;
     padding: 0px 15px;
+    min-height: 100%;
+    display: flex;
+    flex-direction: column; 
+    justify-content: space-between;
+}
+
+.main.open{
+    overflow: hidden;
 }

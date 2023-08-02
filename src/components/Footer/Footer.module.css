@@ -1,0 +1,51 @@
+.container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: var(--dark) ;
+    margin-top: 50px;
+    padding: 10px;
+    flex-shrink: 0;
+    bottom: 0;
+    flex-wrap: wrap;
+}
+
+.logo{
+    color: var(--white);
+    text-decoration: none;
+    font-size: 24px;
+    font-weight: 900;
+}
+
+.logoWrapper{
+    display: flex;
+    align-items: center;
+    border-right:  3px solid var(--white);
+    padding-right: 10px;
+    min-height: 100%;
+}
+
+.socialMedia{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.text{
+    color: var(--white);
+}
+
+.links{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    margin-top: 10px;
+}
+
+.links svg path{
+    transition:  all .2s;
+}
+
+.links:hover svg path{
+     fill : var(--white);
+}

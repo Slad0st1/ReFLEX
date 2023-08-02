@@ -1,12 +1,9 @@
-import React, { useEffect, useState } from "react";
-import { useLocation } from "react-router-dom";
-import Card from "../../Card";
-import { useSelector } from "react-redux";
+import React from "react";
 import Content from "../../../Content";
-export default function CardBottom({path}) {
+export default function CardBottom() {
   return (
     <div>
-      <Content path={path} />
+      <Content />
     </div>
   );
 }
